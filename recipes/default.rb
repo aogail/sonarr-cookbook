@@ -1,3 +1,5 @@
+apt_update
+
 package %w(dirmngr apt-transport-https)
 
 user node['sonarr']['user'] do
@@ -14,8 +16,6 @@ apt_repository 'sonarr' do
   keyserver 'keyserver.ubuntu.com'
   key '0xA236C58F409091A18ACA53CBEBFF6B99D9B78493'
 end
-
-apt_update
 
 package 'nzbdrone' do
   action :upgrade
