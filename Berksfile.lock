@@ -4,4 +4,4 @@ DEPENDENCIES
     metadata: true
 
 GRAPH
-  sonarr (1.0.4)
+  sonarr (2.0.0)
