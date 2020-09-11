@@ -7,5 +7,6 @@ group :test do
   gem 'kitchen-vagrant'
   gem 'kitchen-inspec'
   gem 'stove'
+  gem 'cookstyle'
 end
 
