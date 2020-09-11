@@ -3,6 +3,13 @@ sonarr cookbook CHANGELOG
 
 This file is used to list changes made in each version of the sonarr cookbook.
 
+2.0.0
+-----
+* Chef 13+ required
+* Idempotent config file generation
+* Import current sonarr signing key
+* Update Ubuntu platforms in Test Kitchen
+
 1.0.4
 -----
 * Add support for Debian
